@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key><string>en</string>
+	<key>CFBundleDisplayName</key><string>Tumbler</string>
+	<key>CFBundleExecutable</key><string>Tumbler</string>
+	<key>CFBundleIdentifier</key><string>com.savrum.tumbler</string>
+	<key>CFBundleIconFiles</key><array><string>Icon.png</string><string>Icon@2x.png</string></array>
+	<key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+	<key>CFBundleName</key><string>Tumbler</string>
+	<key>CFBundlePackageType</key><string>APPL</string>
+	<key>CFBundleShortVersionString</key><string>1.0</string>
+	<key>CFBundleSignature</key><string>????</string>
+	<key>CFBundleVersion</key><string>1</string>
+	<key>LSRequiresIPhoneOS</key><true/>
+	<key>MinimumOSVersion</key><string>6.0</string>
+	<key>NSCameraUsageDescription</key><string>Tumbler reads the QR code that sets up two-step verification.</string>
+	<key>NSPhotoLibraryUsageDescription</key><string>Pick a screenshot or photo of a 2FA QR code.</string>
+	<key>CFBundleURLTypes</key><array><dict><key>CFBundleURLName</key><string>com.savrum.tumbler.otpauth</string><key>CFBundleURLSchemes</key><array><string>otpauth</string><string>otpauth-migration</string></array></dict></array>
+	<key>UIDeviceFamily</key><array><integer>1</integer></array>
+	<key>UIPrerenderedIcon</key><false/>
+	<key>UIRequiredDeviceCapabilities</key><array><string>armv7</string></array>
+	<key>UIStatusBarStyle</key><string>UIStatusBarStyleBlackTranslucent</string>
+	<key>UISupportedInterfaceOrientations</key><array><string>UIInterfaceOrientationPortrait</string></array>
+</dict>
+</plist>
