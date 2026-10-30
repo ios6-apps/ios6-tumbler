@@ -34,6 +34,15 @@ The screenshots come from the simulator build with made-up demo accounts (`TB_DE
   seconds off, corrects all codes by the measured offset and says so. The Settings screen has a manual "Sync" button.
 - "Copy all keys" backup (plain text, one `otpauth://` URI per line) and "Paste keys" restore.
 
+## Download
+
+Every push to `main` is built by GitHub Actions. Get the unsigned IPA from the [Releases page](../../releases):
+
+- [latest versioned release](../../releases/latest) - the stable one (versions follow [Semantic Versioning](https://semver.org/), see [CHANGELOG.md](CHANGELOG.md));
+- the [`nightly` pre-release](../../releases/tag/nightly) - the newest build of `main`, replaced on every push.
+
+The IPA is unsigned: install it on an iOS 6 device that has AppSync Unified, e.g. `ideviceinstaller -i Tumbler-<version>.ipa`. A `.sha256` file sits next to each IPA.
+
 ## Requirements
 
 - An iPhone, iPod touch or iPad running iOS 6.0 or later with an armv7 CPU. It has only been tried on **one iPhone 5 running iOS 6.1.3**.

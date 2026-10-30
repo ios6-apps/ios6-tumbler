@@ -26,6 +26,7 @@ if [ "$1" = device ]; then
     xcrun clang -arch armv7 -miphoneos-version-min=6.0 -isysroot "$SDK93" "${FW[@]}" -undefined dynamic_lookup \
         "${OBJS[@]}" -o build/device/Payload/Tumbler.app/Tumbler
     cp Info.plist res/*.png build/device/Payload/Tumbler.app/
+    cp LICENSE THIRD_PARTY_NOTICES.md build/device/Payload/Tumbler.app/
     (cd build/device && zip -q -r ../Tumbler.ipa Payload)
     echo "built build/Tumbler.ipa"
 else
