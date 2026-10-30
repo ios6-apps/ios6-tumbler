@@ -1,3 +1,5 @@
+<img src="docs/icon.png" width="96" align="right" alt="Tumbler icon">
+
 # Tumbler
 
 An offline two-factor authenticator (TOTP and HOTP) for **iOS 6**, written for an iPhone 5 that no current authenticator app
